@@ -1,0 +1,8 @@
+usertest/login/UserLoginNegativeParameterizedTest.class
+usertest/login/UserLoginPositiveTest.class
+usertest/create/UserCreateNegativeTest.class
+usertest/create/UserCreatePositiveTest.class
+usertest/change/ChangeAuthorizedUserDataTest.class
+usertest/create/UserCreateNegativeParameterizedTest.class
+ordertest/OrderTest.class
+usertest/change/ChangeUnauthorizedUserDataTest.class
