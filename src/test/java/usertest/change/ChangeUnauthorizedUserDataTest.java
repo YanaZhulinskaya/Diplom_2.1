@@ -43,7 +43,6 @@ public class ChangeUnauthorizedUserDataTest {
         assertEquals("Expected 401", SC_UNAUTHORIZED, actualStatusCodeChange);
         assertFalse("Expected false", isUserChangeData);
         assertEquals("You should be authorised", changeDataMessage);
-        userClient.delete(accessToken);
     }
 
     @Test
@@ -57,7 +56,6 @@ public class ChangeUnauthorizedUserDataTest {
         assertEquals("Expected 401", SC_UNAUTHORIZED, actualStatusCodeChange);
         assertFalse("Expected false", isUserChangeData);
         assertEquals("You should be authorised", changeDataMessage);
-        userClient.delete(accessToken);
     }
 
     @Test
